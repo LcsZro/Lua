@@ -1,0 +1,10 @@
+print('Digite a nota do primeiro bimeste')
+semestre1 = tonumber(io.read())
+print('Digite a nota do segundo bimestre')
+semestre2 = tonumber(io.read())
+print('Digite a nota do terceiro bimestre')
+semestre3 = tonumber (io.read())
+print('Digite a nota do quarto bimestre')
+semestre4 = tonumber (io.read())
+media = (semestre1 + semestre2 + semestre3 + semestre4) / 4
+print('A media dos bimestres é'..media)
