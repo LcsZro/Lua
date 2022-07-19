@@ -1,0 +1,7 @@
+print('Informe seu salario por hora')
+print('Digite o numero de horas trabalhadas')
+print(string.format("+ Salário Bruto : R$%.2f", salarioMes))
+print(string.format("- IR (11%%) : R$%.2f", IR))
+print(string.format("- INSS (8%%) : R$%.2f", INSS))
+print(string.format("- Sindicato (5%%) : R$%.2f", sindicato))
+print(string.format("= Salário Liquido : R$%.2f", salarioLiquido))
